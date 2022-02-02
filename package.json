@@ -2,8 +2,10 @@
   "name": "nodejs-playground",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
+    "start": "nodemon app.js",
+    "socketio": "nodemon socket.io/socketio.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,10 +13,15 @@
   "dependencies": {
     "@sendgrid/mail": "^7.4.7",
     "dotenv": "^10.0.0",
+    "eslint-config-prettier": "^8.3.0",
     "express": "^4.17.1",
     "free-mobile-sms-api": "^2.0.1",
     "node-cron": "^3.0.0",
     "nodemailer": "^6.6.5",
+    "nodemon": "^2.0.14",
+    "prettier": "^2.5.1",
+    "request-promise": "^4.2.6",
+    "socket.io": "^4.4.0",
     "telegraf": "^3.38.0",
     "twilio": "^3.68.0"
   }
